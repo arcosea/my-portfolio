@@ -1,0 +1,230 @@
+/* Header and Container*/
+#header{
+    color:black;
+    text-align: center;
+    display: inline;
+}
+
+#container{
+    background-color: beige;
+    flex-direction: column;
+    display:flex;
+    min-height: 100vh;
+    
+}
+
+
+#activities{
+    color: beige;
+    background-color: black;
+}
+
+/* Profile image*/
+#person{
+    display:flex; 
+    flex-direction:row;
+    align-items: center;
+}
+
+#profile{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 15rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+
+/* Intro paragraph */
+#intro{
+    font-weight:500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin: 3rem;
+    line-height: 2rem;
+    float: bottom;
+    font-size: 1.3rem;
+}
+
+
+/*   subtitles to sections   */
+.section{
+    border-top: 1px solid black;
+    margin: 3rem 3rem 4rem 3rem;
+}
+
+.sub-header{
+    text-decoration: underline;
+}
+
+.sub-title{
+    font-weight: bold;
+}
+
+#show-title{
+   margin-left: 45%;
+}
+
+/* Favorite activies */
+.fav-act{
+    padding: 1rem 0rem 5rem 5%;
+    margin: 0;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    transition: transform 1s ease;
+}
+.other-act{
+    padding: 1rem 0rem 5rem 10%;
+    margin: 0;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.fav-act li:hover{
+    transform: translateY(-0.5rem);
+}
+
+.other-act li:hover{
+    transform: translateY(-0.5rem);
+}
+/*** notes message */
+[data-msg]{
+    position: relative;
+}
+
+/* , [data-msg]:hover::before */
+[data-msg]:focus::before, [data-msg]:hover::before{
+    content: attr(data-msg);
+    position: absolute;
+    width: 400%;
+    min-width: 100%;
+    background-color: transparent;
+    left: 50%;
+    top: -1rem;
+    transform: translate(-50%, 100%);
+    color: bisque;
+    font-size:medium;
+}
+
+/* Slide show */
+.slideshow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.slide{
+    width: 40rem;
+    height: 25rem;
+    border: 5px solid  black;
+}
+
+#run-slides{
+    width: 40rem;
+    height: 25rem;
+    border: 5px solid  beige;
+}
+
+.slider{
+    color: black;
+    border-radius: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid beige;
+}
+
+
+#next{
+    background: linear-gradient(to right, black, transparent);
+}
+
+#next-run{
+    background: linear-gradient(to right, black, beige);
+    color: white;
+    border: 2px solid black;
+}
+
+#previous{
+    background: linear-gradient(to left, black, transparent);
+}
+
+#previous-run{
+    background: linear-gradient(to left, black, beige);
+    color: white;
+    border: 2px solid black;
+}
+
+/** Interests */
+.interests{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1.5rem; 
+    justify-content: center;
+    margin-left: 12.5%;
+    padding: 0;
+
+}
+
+.interests ul{
+    list-style:none;
+}
+.interests ul li{
+    padding:1rem;
+}
+
+/* Icons & animations*/
+#ball{
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#forward{
+    animation: moveRight 1s ease-in infinite;
+}
+@keyframes moveRight{
+    0%{
+        opacity:0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity:1;
+        transform: translateX(0);
+     }
+}
+
+#upward{
+    animation: moveUp 0.5s ease-in infinite;
+}
+@keyframes moveUp{
+    0%{
+        opacity:0;
+        transform: translateY(25%);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+     }
+}
+
+/* Interest section*/
+
+
+
+/* Courses taken*/
+.courses-taken{
+    list-style:none;
+}

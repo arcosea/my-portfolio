@@ -1,0 +1,113 @@
+/*Container background  & header*/
+.cont-container{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+}
+
+.cont-header{
+    text-align: center;
+    z-index: 5;
+    margin-top: 0rem;
+    padding: 5rem 0rem 5rem 0rem;
+    font-size: 5vh;
+    text-decoration: underline;
+    animation: colorswitch 6s linear infinite;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    z-index: 10;
+}
+
+.form-name{
+    color: rgb(159, 116, 123);
+    font-size: larger;
+}
+
+.form-input{
+    background-color: transparent;
+    color:beige;
+    height: 5vh;
+    border:0;
+    border-bottom: 2px solid purple;
+    letter-spacing: 0.05rem;
+    font-size: large;
+}
+
+.submit{
+    position: relative;
+    background-color: black;
+    left: 85%;
+    width: 15%;
+    color: beige;
+    animation: colorswitch 4s linear infinite;
+    height: 5vh;
+}
+.submit:hover{
+    transform: translateY(-0.5rem);
+}
+
+.ind-form-cont{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-message {
+    display: none;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    color: beige;
+    z-index: 5;
+}
+  
+.show-msg{
+    display: block;
+}
+
+#text-area{
+    min-height: 20vh;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.05rem;
+}
+
+/** Animations */
+@keyframes colorswitch {
+    0%{
+        color: rgb(207, 117, 132);
+    }
+    20%{
+        color: rgb(184, 72, 173);
+    }
+    40%{
+        color: rgb(100, 54, 160);
+    }
+    60%{
+        color: rgb(46, 80, 142);
+    }
+    80%{
+        color: rgb(100, 54, 160);
+    }
+    100%{
+        color: rgb(207, 117, 132);
+    }
+    
+}
+
+/* 3js Canvas */
+#contactCanvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}

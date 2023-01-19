@@ -1,0 +1,274 @@
+/** Container */
+.education{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: beige;
+    color: black;
+}
+
+.ed-section{
+    border-top: 1px solid black;
+    margin: 3rem 3rem 4rem 3rem;
+    z-index: 5;
+}
+
+/** lists */
+.course-container, .skills-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5rem; 
+    justify-content: center;
+    margin-left: 2%;
+    padding: 0;
+}
+
+.courses-taken, .skills-gained{
+    list-style:none;
+}
+
+.courses-taken li, .skills-gained li{
+    margin: 0;
+    padding: 0.2rem;
+    transition: font-size, font-weight, background-color 0.3s ease-in-out;
+}
+
+.courses-taken li:hover, .skills-gained li:hover{
+   font-size: large;
+   font-weight: large;
+   background-color: black;
+   color:beige;
+}
+
+/*  phys Icons */
+.fall{
+    color: red;
+    animation: fall 1s linear infinite;
+}
+
+@keyframes fall{
+    0%{
+        transform: translateY(-0.5rem);
+        opacity: 0;
+        filter: blur(2px);
+    }
+    100%{
+        transform: translateY(0rem);
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+.elec, .quant{
+    color: red;
+}
+
+.spin{
+    animation: rotate 2s linear infinite;
+}
+
+.time{
+    color: rgb(93, 91, 91);
+}
+
+
+.wave{
+    color: rgb(8, 156, 156);
+    animation: wave 3s linear infinite;
+}
+
+@keyframes wave{
+    0%{
+        transform: translateX(-0.2rem);
+        filter: blur(1px);
+    }
+    100%{
+        transform: translateX(0rem);
+        filter: blur(0);
+    }
+}
+
+.eng{
+    color: rgb(221, 151, 22);
+}
+
+.mag{
+    color: red;
+    animation: vibrate 4s linear infinite;
+}
+
+@keyframes vibrate{
+    0%{
+        transform: rotate(0deg);
+        filter: blur(1px);
+    }
+    50%{
+        transform: rotate(40deg);
+        filter: blur(0);
+    }
+    100%{
+        transform: rotate(0deg);
+        filter: blur(1px);
+    }
+}
+
+.mat{
+    color: brown;
+}
+
+.four{
+    color: green;
+}
+
+/** Math icons */
+.stat{
+    color: green;
+}
+.disc{
+    color: blue;
+    animation: flipp 1s linear infinite;
+}
+
+@keyframes flipp{
+    0%{
+        transform: rotateX(180deg);
+    }
+    50%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(180deg);
+    }
+}
+
+.calc{
+    color: red;
+}
+.mult1{
+    color: blue;
+}
+.mult2{
+    color:rgb(8, 156, 156);
+}
+.line{
+    color:blueviolet
+}
+
+/* cs icons */
+.java{
+    color: brown;
+}
+
+.java:hover{
+    filter: blur(0.5px);
+}
+.alg{
+    color: rgb(15, 96, 15);
+}
+.db{
+    color:blue;
+}
+.web{
+    color:rgb(15, 96, 15);
+}
+.od{
+    color:rgb(22, 101, 101);
+}
+.ra{
+    color:orangered;
+}
+
+/* phys skills icons */
+.auto{
+    color: rgb(171, 115, 11);
+}
+.matlba{
+    color: rgb(106, 72, 8);
+}
+.xd{
+    color: rgb(11, 92, 11);
+    animation: vibrate 3s linear infinite;
+}
+.dc{
+    color: rgb(33, 87, 149);
+}
+
+.ms{
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+}
+.pi{
+    color: rgb(62, 219, 62);
+}
+.la{
+    color: rgb(208, 197, 197);
+}
+.mi{
+    color: rgb(94, 137, 29);
+    animation: unblurr 2s linear infinite;
+}
+.arduino{
+    color: rgb(176, 176, 27);
+}
+
+/* math skills icons */
+.r{
+    color: rgb(39, 133, 227);
+}
+.ip{
+    color: orangered;
+}
+.ct{
+    color: grey;
+}
+.lat{
+    color:rgb(23, 85, 23);
+    animation: wave 3s linear infinite;
+}
+.ps{
+    color: orange;
+}
+
+/* cs skills icons */
+.py{
+    color: rgb(181, 160, 24);
+}
+.html{
+    color: rgb(249, 103, 24);
+}
+.doc{
+    color: rgb(20, 128, 160);
+}
+.re{
+    color: blue;
+}
+.flask{
+    animation: vibrate 3s linear infinite;
+}
+.dp{
+    color: orange;
+}
+
+.ad{
+    animation: wave 2s linear infinite;
+}
+
+.mex{
+    color: green;
+}
+.usa{
+    color: red;
+}
+
+
+/*** 3JS Canvas */
+#educationCanvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    min-height: 100%;
+    z-index: 0;
+}

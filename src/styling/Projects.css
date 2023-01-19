@@ -1,0 +1,422 @@
+
+/**** Header & Container */
+.projects{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#proj-site-header{
+    color: white;
+    z-index: 5;
+    margin-top: 20rem;
+    min-height: 20rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 3rem;
+}
+
+.header-name:hover{
+    letter-spacing: 0.5rem;
+    text-shadow: 0 0 0.3rem hsl(0, 0%, 100%), 0 0 0.6rem hsl(0, 0%, 80%);
+}
+#proj-site-header:hover{
+    letter-spacing: 0.5rem;
+    text-shadow: 0 0 0.3rem hsl(0, 0%, 100%), 0 0 0.6rem hsl(0, 0%, 80%);
+}
+
+.proj-type-header{
+    z-index: 5;
+    margin-left: 10%;
+    font-size: larger;
+    padding-bottom: 3rem;
+}
+
+#swe-type{
+    color:#c22085;
+}
+
+#e-type{
+    color:rgb(98, 20, 162);
+}
+
+#p-type{
+    color:rgb(19, 61, 145);
+}
+
+/** Container for each project*/
+.proj-s-container, .proj-container{
+    z-index: 5;
+    width: 60%;
+    margin-left: 15%;
+    min-height: 15vh;
+    margin-bottom: 10rem;
+    padding: 1rem;
+    position: relative;  
+}
+
+#odd-s{
+    border: 2px solid #c22085;
+}
+
+#even-s{
+    border: 2px solid rgb(120, 20, 162);
+}
+
+#last-proj{
+    margin-bottom: 3rem;
+    border: 2px solid rgb(120, 20, 162);
+}
+
+#ld-proj{
+    border: 2px solid rgb(120, 20, 162);
+}
+
+#sc-proj{
+    border: 2px solid rgb(46, 113, 237);
+}
+
+#lc-proj{
+    border: 2px solid rgb(81, 153, 236);
+}
+
+#mi-proj{
+    border: 2px solid rgb(30, 231, 30);
+}
+.proj-gap{
+    min-height: 20vh;
+}
+
+
+
+/** Content inside container */
+.proj-title{
+    color: bisque;
+    left: 0;
+    font-size: 1.75rem;
+    margin: 1rem;
+}
+
+
+.proj-desc{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.proj-note{
+    color: #c22085;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.hidden-note{
+    color: #c22085;
+    font-size: 1.5rem;
+    margin: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.hidden-note:hover{
+    transform: translateY(-0.5rem);
+}
+
+
+/** Animation of swipe */
+.reveal::after{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 100%;
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
+    background-color: #c22085;
+    animation: swipe-reveal 0.5s ease-out forwards;
+}
+
+@keyframes swipe-reveal {
+    0%{
+        width: 100%;
+        right: 100%;
+        left: 0%;
+    }
+    50%{
+        left: 0%;
+        width: 100%;
+        right: 0%;
+        background-color: rgb(120, 20, 162);
+        
+    }
+    100%{
+        width: 0%;
+        left: 100%;
+    }
+}
+ /* Animation that slides item & unblurs*/
+.stash{
+    height: 70%;
+    opacity: 0;
+    filter: blur(8px);
+    transform: translateX(-100%);
+    transition: opacity, filter, transform 1s;
+}
+
+.slide{
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
+
+/* Animation that that unblurs*/
+.blur{
+    height: 70%;
+    opacity: 0;
+    filter: blur(8px);
+}
+
+.unblur{
+    animation: unblurr 1s ease-out forwards;
+}
+
+@keyframes unblurr{
+    0%{
+        opacity: 0;
+        filter: blur(8px);
+    }
+
+    33%{
+        opacity: 0.3;
+        filter: blur(5px);
+    }
+
+    66%{
+        opacity: 0.7;
+        filter: blur(3px);
+    }
+
+    100%{
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+/** Custom colors for names */
+#naimor-inc{
+    color: rgb(100, 100, 212);
+}
+
+/*** Tech stack message */
+[data-msg]{
+    position: relative;
+}
+
+/* , [data-msg]:hover::before */
+[data-msg]:focus::before, [data-msg]:hover::before{
+    content: attr(data-msg);
+    position: absolute;
+    width: 400%;
+    min-width: 100%;
+    padding: 1rem;
+    background-color: transparent;
+    left: 50%;
+    top: -1rem;
+    transform: translate(-50%, 100%);
+    color: bisque;
+    font-size:large;
+}
+
+
+/** icons  and animations */
+#scIcon{
+    color: rgb(46, 113, 237);
+    background-color:rgb(245, 245, 87);
+}
+ 
+#swIcon{
+    animation: flipColor linear 1s infinite;
+}
+@keyframes flipColor{
+    0%{
+       color: rgb(38, 46, 212);
+       transform:rotateY(0deg);
+    }
+    50%{
+        color: rgb(217, 50, 50);
+        transform:rotateY(180deg);
+    }
+    100%{
+        color: rgb(38, 46, 212);
+        transform:rotateY(0deg);
+     }
+}
+
+#sbIcon{
+    animation: altColor linear 2s infinite;
+}
+@keyframes altColor{
+    0%{
+       color: whitesmoke;
+    }
+    33%{
+        color: rgb(245, 245, 87);
+    }
+    66%{
+        color: rgb(108, 221, 223);
+    }
+    100%{
+        color: whitesmoke;
+     }
+}
+
+#ldIcon{
+    animation: drive 1s ease-in infinite;
+}
+@keyframes drive{
+    0%{
+        opacity:0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity:1;
+        transform: translateX(0);
+     }
+}
+
+#cIcon{
+    animation: bounce 1s linear infinite;
+}
+@keyframes bounce{
+    0%{
+        transform: rotate(45deg);
+
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-45deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(45deg);
+    }
+}
+
+
+
+#lcIcon{
+    animation: bladeSpin 1s linear infinite;
+}
+@keyframes bladeSpin{
+    0%{
+        transform: rotate(0deg);
+        color: rgb(81, 153, 236);
+    }
+    50%{
+        transform: rotate(180deg);
+        color: white;
+    }
+    100%{
+        transform: rotate(360deg);
+        color: rgb(81, 153, 236);
+    }
+}
+
+
+/* Project titles colors */
+#legoProj{
+    color: rgb(223, 223, 108);
+}
+
+#swProj{
+    color: rgb(108, 221, 223);
+}
+
+#sbProj{
+    color: rgb(224, 185, 106);
+}
+
+#ldProj{
+    color: rgb(226, 81, 81);
+}
+
+#scProj{
+    color: rgb(46, 113, 237);
+}
+
+#cProj{
+    color: rgb(44, 214, 44);
+}
+
+#lcProj{
+    color: rgb(81, 153, 236);
+}
+
+#miProj{
+    color: rgb(30, 231, 30);
+}
+
+#ncProj{
+    color: rgb(232, 159, 50);
+}
+
+
+span.tooltip:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #FFFFFF transparent transparent;
+    top: 11px;
+    left: -24px;
+}
+
+/*** Navigation Bar */
+.navbar{
+    color: beige;
+    display: flex;
+    position: sticky;
+    top: 20%;
+    z-index: 100;
+    width: 25%;
+    margin-left: 80%;
+    display: flex;
+    position: sticky;
+    border-left: 2px solid white;
+}
+
+.list{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0.5rem;
+}
+
+.nav-item{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-active{
+    color: rgb(120, 20, 162);
+}
+
+#eng
+
+/*** 3JS Canvas */
+#spaceCanvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 0;
+    min-height: 100%;
+}
+
