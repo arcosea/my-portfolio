@@ -5,7 +5,7 @@ import { isPropertySignature } from "typescript";
 export default function Navbar(){
     return (
         <nav className="nav">
-            <Link to="/" className="site-title"> <FaHome/> Home </Link>
+            <Link to="/my-portfolio" className="site-title"> <FaHome/> Home </Link>
             <ul>
                 <li>
                     <Link to="/about" className="site-title"> About Me</Link>
