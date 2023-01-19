@@ -10,7 +10,7 @@ export function Home(){
         <div className="home">
             <div className="home-container">
                 <p className="home-intro" id="text-1">
-                    Welcome! My name is Erick.
+                    Welcome! My name is Erick. Check out my <Link to="/projects" id="proj-link"> Projects!</Link>
                 </p>
                 
             </div>

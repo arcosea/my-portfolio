@@ -94,6 +94,11 @@ body{
   background-color: green;
 }
 
+.nav-icon{
+  background-color: white;
+  color: transparent;
+}
+
 /* Footer */
 .footer{
   background-color: black;

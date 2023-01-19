@@ -14,7 +14,7 @@
     position: absolute;
     z-index: 5;
     display:inline-block;
-    margin-left: 30%; 
+    margin-left: 20%; 
 }
 
 
@@ -29,7 +29,7 @@
     white-space: nowrap;
     overflow: hidden;
     animation:
-        typing 3s steps(25),
+        typing 3s steps(49),
         cursor .4s step-end infinite alternate;
 }
 
@@ -72,6 +72,9 @@
     }
 }
 
+#proj-link{
+    color: white;
+}
 
 /* 3js Canvas */
 #welcomeCanvas{

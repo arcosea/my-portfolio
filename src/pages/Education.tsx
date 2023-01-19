@@ -6,10 +6,10 @@ import { AiOutlineFundProjectionScreen, AiOutlineFunction, AiFillExperiment, AiF
 import { BsWater, BsGrid1X2, BsClipboardData, BsPatchQuestionFill, BsGithub } from 'react-icons/bs';
 import { FaReact, FaWaveSquare, FaJava, FaDocker, FaPython, FaFlagUsa, FaTools, FaNode } from 'react-icons/fa';
 import { FcDataSheet, FcEngineering, FcTreeStructure, FcVoicePresentation } from 'react-icons/fc';
-import { GiFallDown, GiTimeSynchronization, GiMagnet, GiEmptyMetalBucketHandle, GiCheckboxTree, GiVintageRobot, GiHelicopter, GiUncertainty, GiWorld, GiCircuitry, GiLabCoat, GiLaserBurst, GiSolderingIron, GiThink, GiSprint, GiMexico, GiGraduateCap } from 'react-icons/gi';
+import { GiFallDown, GiTimeSynchronization, GiMagnet, GiEmptyMetalBucketHandle, GiCheckboxTree, GiVintageRobot, GiHelicopter, GiUncertainty, GiWorld, GiCircuitry, GiLabCoat, GiLaserBurst, GiSolderingIron, GiThink, GiSprint, GiMexico, GiGraduateCap, GiMagnifyingGlass } from 'react-icons/gi';
 import { MdDesignServices, MdEngineering, MdPattern, MdSyncProblem } from 'react-icons/md';
-import { SiMatrix, SiPostgresql, SiMaterialdesignicons, SiElectron, SiAutodesk, SiReacttable, SiArduino, SiLatex, SiRstudio, SiWolframmathematica, SiJavascript, SiFlask, SiTypescript } from 'react-icons/si';
-import { TbLetterC, TbMath, TbWaveSawTool } from 'react-icons/tb';
+import { SiMatrix, SiPostgresql, SiMaterialdesignicons, SiElectron, SiAutodesk, SiReacttable, SiArduino, SiLatex, SiRstudio, SiWolframmathematica, SiJavascript, SiFlask, SiTypescript, SiFuturelearn } from 'react-icons/si';
+import { TbGridDots, TbLetterC, TbMath, TbWaveSawTool } from 'react-icons/tb';
 import { GrCertificate, GrObjectGroup } from 'react-icons/gr';
 
 export function Education(){
@@ -55,7 +55,10 @@ export function Education(){
                                 <MdEngineering className='eng'/> Engineering Statics
                             </li>
                             <li>
-                                <GiMagnet className='mag'/> EM theory & EM Optics
+                                <GiMagnet className='mag'/> EM theory 
+                            </li>
+                            <li>
+                                <GiMagnifyingGlass/>  EM Optics
                             </li>
                             <li>
                                 <GiEmptyMetalBucketHandle className='mat'/> Material Science
@@ -130,7 +133,7 @@ export function Education(){
                     <div className="skills-container">
                         <ul className="skills-gained">
                             <span>
-                                <strong> Languages Learned</strong>
+                                <strong> Languages </strong>
                             </span>
                             <li>
                                 <GiMexico className="mex"/> Spanish
@@ -212,13 +215,16 @@ export function Education(){
                             <li>
                                 <GiLaserBurst className='mi'/> Michelson Interferometer 
                             </li>
+                            <li>
+                                <TbGridDots/> ROS
+                            </li>
                             
            
                         </ul>
 
                         <ul className="skills-gained">
                             <span>
-                                <strong> Soft Skills </strong>
+                                <strong> Other Skills </strong>
                             </span>
                             <li>
                                <GrObjectGroup className='oop'/> Object Oriented Design (OOP)
@@ -249,6 +255,9 @@ export function Education(){
                             </li>
                             <li>
                                 <FcVoicePresentation/> Presentation
+                            </li>
+                            <li>
+                                <SiFuturelearn/> Curious Learner
                             </li>
                                                       
                         </ul>
