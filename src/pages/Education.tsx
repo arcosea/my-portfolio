@@ -257,7 +257,7 @@ export function Education(){
                                 <FcVoicePresentation/> Presentation
                             </li>
                             <li>
-                                <SiFuturelearn/> Curious Learner
+                                <SiFuturelearn/> Life-long Learner
                             </li>
                                                       
                         </ul>
