@@ -2,6 +2,7 @@ import { FaJedi } from "react-icons/fa";
 import "../styling/IndividualProject.css"
 import {BsGithub} from "react-icons/bs";
 import { RiStackFill } from "react-icons/ri";
+import { useEffect } from "react";
 
 export function StarWarsProject(){
     // Auto scrolls to the top after rendering
@@ -37,6 +38,3 @@ export function StarWarsProject(){
     );
 }
 
-function useEffect(arg0: () => void, arg1: never[]) {
-    throw new Error("Function not implemented.");
-}

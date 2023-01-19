@@ -3,6 +3,7 @@ import "../styling/Projects.css"
 import {BsStars, BsController, BsGithub} from "react-icons/bs";
 import { FaJava } from "react-icons/fa";
 import { RiStackFill } from "react-icons/ri";
+import { useEffect } from "react";
 export function StarBattleProject(){
     // Auto scrolls to the top after rendering
     useEffect(() => {
@@ -37,6 +38,3 @@ export function StarBattleProject(){
     );
 }
 
-function useEffect(arg0: () => void, arg1: never[]) {
-    throw new Error("Function not implemented.");
-}

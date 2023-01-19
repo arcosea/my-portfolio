@@ -216,7 +216,7 @@ export function Projects(){
             <span className='proj-title'> <MdWeb/> Portfolio</span>
             <p className='proj-desc'> A responsive website for that showcases my work experience, education, projects & hobbies. </p>
             <span className='proj-note'>
-                <Link to="/" id="view-website">  <AiOutlineCaretRight/> View Website </Link>  
+                <Link to="/my-portfolio" id="view-website">  <AiOutlineCaretRight/> View Website </Link>  
             </span>
             <span className='hidden-note' data-msg="React, Typscript, 3JS, emailJS, HTML/CSS, Node.JS, Github">
                 <RiStackFill className='tech-stack-icon'/> Tech Stack

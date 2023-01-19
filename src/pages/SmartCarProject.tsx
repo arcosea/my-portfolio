@@ -4,6 +4,7 @@ import { RiStackFill } from "react-icons/ri";
 import { SiArduino, SiProbot } from "react-icons/si";
 import { GiSoundWaves } from "react-icons/gi";
 import { BsGithub } from "react-icons/bs";
+import { useEffect } from "react";
 
 export function SmartCarProject(){
     // Auto scrolls to the top after rendering
@@ -90,6 +91,3 @@ export function SmartCarProject(){
     );
 }
 
-function useEffect(arg0: () => void, arg1: never[]) {
-    throw new Error("Function not implemented.");
-}
