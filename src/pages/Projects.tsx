@@ -125,9 +125,9 @@ export function Projects(){
     let pClose = "[ Physics Projects ]";
 
     // links to pdfs
-    let plcPDF = "../assets/papers/PropellerLiftCoefficient.pdf";
+    let plcPDF = "../assets/papers/PropellerLiftCoefficient.pdf"
     let miPDF = "../assets/papers/MichelsonInterferometer.pdf";
-    let ncPDF = "../assets/papers/NuclearScattering.pdf";
+    let ncPDF = "../assets/papers/NuclearScattering.pdf"
 
     // page title
     let title = "[ Projects ]";
@@ -151,6 +151,7 @@ export function Projects(){
     };
     
     // HTML project
+   
     return (
       <div className='projects' >
         <SpaceCanvas/>
