@@ -41,6 +41,11 @@ export function Contact(){
 
         
     };
+
+    // Change title of page
+    useEffect( () => {
+        document.title = "Contact Me";
+    }, []);
     
 
     return (

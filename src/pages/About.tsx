@@ -122,8 +122,17 @@ export function About(){
         return () => clearInterval(slideInterval_show);
     }, [showIndex]);
 
+    // Change title of page
+    useEffect( () => {
+        document.title = "About Me";
+    }, []);
+
     return (
+        
+
+        
         <div id="container">
+            
             <h2 id="header"> About Me</h2>
             
             {/** BIO  */}
@@ -266,5 +275,6 @@ export function About(){
             
             
         </div>
+        
     );
 }

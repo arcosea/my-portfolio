@@ -12,6 +12,11 @@ export function StarWarsProject(){
     
     const video = "../assets/videos/starwar.mov";
     
+    // Change title of page
+    useEffect( () => {
+        document.title = "StarWars Project";
+    }, []);
+
     return(
         <div className="container-SW">
             <h2 className="ind-proj-title"> <FaJedi id="swIcon"/> Star Wars Image Generator</h2>

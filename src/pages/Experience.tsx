@@ -44,6 +44,11 @@ export function Experience(){
         })
     }, []);
 
+    // Change title of page
+    useEffect( () => {
+        document.title = "Work Experience";
+    }, []);
+
     return (
         <div className="container">
             <SpaceCanvas/>

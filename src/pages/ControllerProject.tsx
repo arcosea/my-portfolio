@@ -14,6 +14,11 @@ export function ControllerProject(){
     
     // video 
     let video = "../assets/videos/controller.mov";
+    
+    // Change title of page
+    useEffect( () => {
+        document.title = "Controller Project";
+    }, []);
 
     return(
         <div className="container-SW">

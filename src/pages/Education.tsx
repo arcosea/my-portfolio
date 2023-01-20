@@ -17,6 +17,11 @@ export function Education(){
     useEffect(() => {
         window.scrollTo(0, 0)
     }, []);
+
+    // Change title of page
+    useEffect( () => {
+        document.title = "Education";
+    }, []);
     
     return (
         <div className="education">

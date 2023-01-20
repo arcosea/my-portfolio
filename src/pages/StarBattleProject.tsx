@@ -16,6 +16,11 @@ export function StarBattleProject(){
     // video 
     let video = "../assets/videos/starbattle.mov";
 
+    // Change title of page
+    useEffect( () => {
+        document.title = "StarBattle Project";
+    }, []);
+
     return(
         <div className="container-SW">
             <h2 className="ind-proj-title"> <BsStars id="bsIcon"/> Star Battle Puzzle</h2>

@@ -6,6 +6,10 @@ import {Text} from 'troika-three-text';
 import { WelcomeCanvas } from "./WelcomeCanvas";
 
 export function Home(){
+    // Change title of page
+    useEffect( () => {
+        document.title = "Home";
+    }, []);
     return (
         <div className="home">
             <div className="home-container">

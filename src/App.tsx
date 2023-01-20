@@ -16,6 +16,7 @@ import { ControllerProject } from './pages/ControllerProject';
 import { Contact } from './pages/Contact';
 
 function App() {
+  let title = "about me"
   return (
     
   <>
@@ -23,7 +24,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/my-portfolio" element={< Home />}/>
-        <Route path="/about" element={<About />}/>
+        <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/starwars" element={<StarWarsProject />} />
         <Route path="/projects/starbattle" element={<StarBattleProject />} />

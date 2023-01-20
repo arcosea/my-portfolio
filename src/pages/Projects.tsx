@@ -150,7 +150,10 @@ export function Projects(){
         section!.scrollIntoView( { behavior: 'smooth', block: 'start' } );
     };
     
-    // HTML project
+    // Change title of page
+    useEffect( () => {
+        document.title = "Projects";
+    }, []);
    
     return (
       <div className='projects' >

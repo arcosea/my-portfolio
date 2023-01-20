@@ -15,6 +15,11 @@ export function SmartCarProject(){
     // video 
     let video = "../assets/videos/smartcar.mov";
 
+    // Change title of page
+    useEffect( () => {
+        document.title = "SmartCar Project";
+    }, []);
+
     return(
         <div className="container-SW">
             <h2 className="ind-proj-title"> <SiProbot id="scIcon"/> Smart Car</h2>
