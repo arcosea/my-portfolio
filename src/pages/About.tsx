@@ -4,15 +4,33 @@ import React, { useEffect, useState, useRef } from 'react';
 import { GiArtificialHive, GiArtificialIntelligence, GiMountainClimbing, GiRunningShoe, GiSoccerBall, GiSolarSystem, GiThreeFriends, GiTimeSynchronization, GiVintageRobot } from "react-icons/gi";
 import { FaChess, FaRobot, FaRocket, FaRunning, FaVolleyballBall, FaWaveSquare } from "react-icons/fa";
 import { MdEngineering, MdOutlineWeb, MdSportsTennis, MdTransform } from "react-icons/md";
+// Profile image
+import profileImg from "../assets/profile.png";
 
+// Running images
+import xc_plu from "../assets/running/xc-plu-invite.png";
+import xc_spu from "../assets/running/xc-spu.png";
+import team from  "../assets/running/team.png";
+import ten_k from  "../assets/running/10k.png";
+import inv from  "../assets/running/inv.png";
+import lc_inv from "../assets/running/lc-invite.png";
+import lc from "../assets/running/lc.png";
+
+// Movies & Shows
+import inter from "../assets/shows/int.png";
+import aot from  "../assets/shows/aot2.png";
+import got from  "../assets/shows/got.png";
+import bb from "../assets/shows/bb.png";
+import ww from "../assets/shows/ww.png";
+import vs from "../assets/shows/vs.png";
+import sw from "../assets/shows/sw.png";
 
 export function About(){
     /**********         Running Slide Show              *************/
     // Running slideshow & method for storing images & keeping track of which to display
-    // To small: "running/prenats.png", "running/vball.png", "running/10k.png"
-    let imageURL = ["running/xc-plu-invite.png", "running/xc-spu.png", "running/team.png", "running/10k.png", "running/inv.png", "running/lc-invite.png", "running/lc.png"];
+    let imageURL = [xc_plu, xc_spu, team, ten_k, inv, lc_inv, lc];
     let [imageIndex, setImageIndex] = useState(0);
-    let [imageLink, setImageLink] = useState("running/xc-plu-invite.png");
+    let [imageLink, setImageLink] = useState(xc_plu);
     let slideInterval: any;
     let intervalTime = 5000; // In ms
     let autoScroll = true;
@@ -55,11 +73,11 @@ export function About(){
 
      /**********            Favorite Shows Slide Show      *************/
    // Favorite shows slideshow & method for storing images & keeping track of which to displa
-   let showURL = ["shows/int.png", "shows/aot2.png", "shows/got.png", "shows/bb.png", "shows/ww.png"];
-   let showTitle = ["Interstellar", "Attack on Titan", "Game of Thrones", "Breaking Bad", "Westworld"];
+   let showURL = [inter, aot, got, sw, vs, bb, ww];
+   let showTitle = ["Interstellar", "Attack on Titan", "Game of Thrones", "Star Wars", "Vinland Saga", "Breaking Bad", "Westworld"];
    let [currentTitle, setCurrentTitle] = useState("Interstellar");
    let [showIndex, setShowIndex] = useState(0);
-   let [showLink, setShowLink] = useState("shows/int.png");
+   let [showLink, setShowLink] = useState(inter);
    let slideInterval_show: any;
    let scrollAuto = true;
 
@@ -115,18 +133,43 @@ export function About(){
                     I am studying <strong>Applied Physics (BS)</strong> and <strong>Computer Science (BA)</strong> with a <strong> Minor in Mathematics. </strong> 
                     I will be <strong> graduating in  May of 2023. </strong>
                 </p>
-                <img src="/profile.png" id="profile" alt="profile picture of Erick Arcos"></img>
+                <img src={profileImg} id="profile" alt="profile picture of Erick Arcos"></img>
             </div>
-
-            {/** Family Background */}
-            <div>
+            <div >
                 <section className="section">
-                    <h3 className="sub-header"><GiThreeFriends/> Family & Background  </h3>
-                    <p>
-                        I value spending time with Friends & Family. I have three younger brothers. I am the first in my family to have graduated High School and attended University! 
-                    </p>
+                    <h3 className="sub-header"> Interests </h3>
+                    <div className="interests">
+                    <ul >
+                        <li>
+                           <FaRocket/>  Space Exploration
+                        </li>
+                        <li>
+                            <GiSolarSystem/> Astrophysics
+                        </li>
+                        <li>
+                            <FaRobot/> Robotics
+                        </li>
+                        <li>
+                            <GiTimeSynchronization/> General Relativity
+                        </li>
+                    </ul>
+
+                    <ul >
+                        <li>
+                           <MdOutlineWeb/>  Software Development
+                        </li>
+                        <li>
+                            <GiArtificialHive/> Artifical Intelligence
+                        </li>
+                        <li>
+                            <GiVintageRobot/> Machine Learning
+                        </li>
+                    </ul>
+
+                    </div>
                 </section>
             </div>
+
             
             {/** Sports & Activities */}
             <div id="activities">
@@ -138,7 +181,7 @@ export function About(){
                                 <GiSoccerBall id="ball"/> Soccer
                             </span>
                             <p>
-                                I grew up playing soccer from when I was 8 till midway through High School.
+                                I grew up playing soccer till my sophomore year of High School.
                             </p>
                         </li>
                         <li>
@@ -195,6 +238,15 @@ export function About(){
                 </section>
             </div>
             
+            {/** Family Background */}
+            <div>
+                <section className="section">
+                    <h3 className="sub-header"><GiThreeFriends/> Family & Background  </h3>
+                    <p>
+                        I value spending time with Friends & Family. I have three younger brothers. I am the first in my family to have graduated High School and attended University! 
+                    </p>
+                </section>
+            </div>
 
             {/** Fav shows/movies */}
             <div>
@@ -211,40 +263,7 @@ export function About(){
                 </section>
             </div>
 
-            <div >
-                <section className="section">
-                    <h3 className="sub-header"> Interests </h3>
-                    <div className="interests">
-                    <ul >
-                        <li>
-                           <FaRocket/>  Space Exploration
-                        </li>
-                        <li>
-                            <GiSolarSystem/> Astrophysics
-                        </li>
-                        <li>
-                            <FaRobot/> Robotics
-                        </li>
-                        <li>
-                            <GiTimeSynchronization/> General Relativity
-                        </li>
-                    </ul>
-
-                    <ul >
-                        <li>
-                           <MdOutlineWeb/>  Software Development
-                        </li>
-                        <li>
-                            <GiArtificialHive/> Artifical Intelligence
-                        </li>
-                        <li>
-                            <GiVintageRobot/> Machine Learning
-                        </li>
-                    </ul>
-
-                    </div>
-                </section>
-            </div>
+            
             
         </div>
     );
