@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import React, { useEffect, useState, useRef } from 'react';
-
+import starURL from "../assets/star.png";
 
 export function SpaceCanvas(){
     // Moving through space effect
@@ -46,7 +46,7 @@ export function SpaceCanvas(){
       starGeo.setFromPoints(starPoints);
 
       // Create Texture for vertices
-      let sprite = new THREE.TextureLoader().load('star.png');
+      let sprite = new THREE.TextureLoader().load(starURL);
       let starMaterial = new THREE.PointsMaterial({
         color: 0xaaaaaa,
         size: 0.7,

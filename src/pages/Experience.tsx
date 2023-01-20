@@ -10,6 +10,11 @@ import { GrUserWorker } from "react-icons/gr";
 import {MdWork} from "react-icons/md";
 import { SpaceCanvas } from "./SpaceCanvas";
 
+// import logo images
+import naimor from "../assets/logos/naimor.png";
+import plu from "../assets/logos/plu.png";
+import plu2 from "../assets/logos/plu2.png";
+import utiligi from "../assets/logos/utiligi.png";
 
 export function Experience(){
     // Auto scrolls to the top after rendering
@@ -39,9 +44,6 @@ export function Experience(){
         })
     }, []);
 
-    // Gif Visuals 
-    const NNGif = "/design/nn.gif";
-
     return (
         <div className="container">
             <SpaceCanvas/>
@@ -53,7 +55,7 @@ export function Experience(){
                 <div className="inner-container">
                     <div className="comp-container-left hidden" id="swe-job">
                         <h3 className="component-name"> <AiOutlineLaptop id="ltIcon"/> Software Engineering Intern</h3>
-                        <img src="logos/naimor.png" alt="company logo" id="naimor-img"></img>
+                        <img src={naimor} alt="company logo" id="naimor-img"></img>
                         <span className="left-arrow"></span>
                         <h4 className="company-left" id="naimor"> NaiMor, Inc </h4>
                         <span className="timeline"> August. 2022 - Present</span>
@@ -81,7 +83,7 @@ export function Experience(){
                     </div>
                     <div className="comp-container-right hidden" id="tutor-job">
                         <h3 className="component-name"> <GiTeacher id="teachIcon"/> Math/CS Tutor</h3>
-                        <img  src="logos/plu2.png" alt="company logo"></img>
+                        <img  src={plu2} alt="company logo"></img>
                         <span className="right-arrow"></span>
                         <h4 className="company-right" id="plu-name"> Pacific Lutheran University </h4>
                         <span className="timeline"> August 2022 - Present</span>
@@ -95,7 +97,7 @@ export function Experience(){
                 <div className="inner-container">
                     <div className="comp-container-left hidden" id="ta-job">
                         <h3 className="component-name"> <FcTreeStructure /> Data Structures Teacher Assistant</h3>
-                        <img  src="logos/plu.png" alt="company logo"></img>
+                        <img  src={plu} alt="company logo"></img>
                         <span className="left-arrow"></span>
                         <h4 className="company-left" id="plu-name"> Pacific Lutheran University </h4>
                         <span className="timeline"> February 2022 - May 2022</span>
@@ -105,16 +107,13 @@ export function Experience(){
                         </p>
                        
                     </div>
-                    <div className="visual hidden">
-                        <img id='nn-vis'src={NNGif}></img>
-                    </div>
                 </div>
 
                 {/* Apprentice Job */}
                 <div className="inner-container">
                     <div className="comp-container-right hidden" id="app-job">
                         <h3 className="component-name"> <MdConstruction id="toolsIcon" /> Apprentice</h3>
-                        <img id="logo" src="logos/utiligi.png" alt="company logo"></img>
+                        <img id="logo" src={utiligi} alt="company logo"></img>
                         <span className="right-arrow"></span>
                         <h4 className="company-right" id="utiligi"> Utiligi Telecommunications </h4>
                         <span className="timeline"> June - September 2020, 2021, 2022</span>

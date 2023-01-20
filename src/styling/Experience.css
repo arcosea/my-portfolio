@@ -183,7 +183,6 @@
 
 /*  Customize SWE Job */
 #swe-job{
-    background-color: black;
     border-bottom: 5px solid rgb(164, 164, 239);
     color: white;
 }
@@ -226,7 +225,6 @@
 
 /*  Customize Tutor Job */
 #tutor-job{
-    background-color: black;
     color: beige;
     border-left: 5px solid rgb(141, 183, 201);
 } 
@@ -243,7 +241,6 @@
 
 /*  Customize TA Job */
 #ta-job{
-    background-color: black;
     color: rgb(186, 186, 169);
     border-right: 5px solid rgb(205, 121, 173);
 }
@@ -262,7 +259,6 @@
 
 /*  Apprentice Job */
 #app-job{
-    background-color: black;
     color:rgb(206, 199, 199);
     border-top: 5px solid rgb(141, 198, 152);
 }
@@ -279,22 +275,6 @@
 }
 
 
-/**************** Education Content *****************/ 
-/* .degree-info{
-    display: flex;
-    flex-direction: column;
-    margin: 2rem;
-}
-
-.course-container{
-    text-align: left;
-    margin: 1rem;
-}
-
-.courses{
-    display: grid;
-    letter-spacing: 0.1em;
-} */
 
 
 /*** Animations */
@@ -320,7 +300,7 @@
     border-radius: 5%
 }
 #workIcon:hover{
-    background-color: red;
+    background-color: rgb(53, 112, 223);
     border-radius: 50%
 }
 
@@ -330,7 +310,7 @@
     border-radius: 5%
 }
 #suitIcon:hover{
-    background-color: red;
+    background-color: rgb(53, 112, 223);
     border-radius: 50%
 }
 
