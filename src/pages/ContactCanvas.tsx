@@ -15,7 +15,7 @@ export function ContactCanvas(){
         function init() {
             // Create scene object
             scene = new THREE.Scene();
-            scene.background = new THREE.Color("rgb(50, 50, 50)")
+            scene.background = new THREE.Color("rgb(245, 245, 220)")
 
             // Setup camera with facing upward
             camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight);
