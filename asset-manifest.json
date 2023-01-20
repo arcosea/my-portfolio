@@ -1,15 +1,34 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.0c7ace06.css",
-    "main.js": "/my-portfolio/static/js/main.4df8ac6f.js",
+    "main.css": "/my-portfolio/static/css/main.3b082c10.css",
+    "main.js": "/my-portfolio/static/js/main.0bff7e28.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/team.png": "/my-portfolio/static/media/team.ff482890400ed27b2a52.png",
+    "static/media/lc.png": "/my-portfolio/static/media/lc.1e1a1b860ae196bd2fdc.png",
+    "static/media/lc-invite.png": "/my-portfolio/static/media/lc-invite.288befdf766d942d5a77.png",
+    "static/media/inv.png": "/my-portfolio/static/media/inv.81b45e0dfc2e6e65c625.png",
+    "static/media/aot2.png": "/my-portfolio/static/media/aot2.68ab7c5bce3db1111dc8.png",
+    "static/media/xc-spu.png": "/my-portfolio/static/media/xc-spu.cdeb0fdb7fe5def3f347.png",
+    "static/media/xc-plu-invite.png": "/my-portfolio/static/media/xc-plu-invite.fdc5cc8d15f2ab1da250.png",
+    "static/media/10k.png": "/my-portfolio/static/media/10k.b1e4cd98a1b49c9b1e48.png",
+    "static/media/profile.png": "/my-portfolio/static/media/profile.2e98498d2c860b15f602.png",
+    "static/media/int.png": "/my-portfolio/static/media/int.e13dc867730726c971d2.png",
+    "static/media/got.png": "/my-portfolio/static/media/got.e473a8fc4506b1bc31b6.png",
+    "static/media/bb.png": "/my-portfolio/static/media/bb.62131517516b0cd7148f.png",
+    "static/media/sw.png": "/my-portfolio/static/media/sw.43251b685ffcf4f79873.png",
+    "static/media/plu.png": "/my-portfolio/static/media/plu.f40121e4b8f1ce35aba9.png",
+    "static/media/vs.png": "/my-portfolio/static/media/vs.e3089f9a178ddc4d54db.png",
+    "static/media/ww.png": "/my-portfolio/static/media/ww.3d25030d8d9527c32e23.png",
+    "static/media/plu2.png": "/my-portfolio/static/media/plu2.2d2a54acebeadaf3b7d7.png",
+    "static/media/star.png": "/my-portfolio/static/media/star.6fdc41d43aba9240af04.png",
+    "static/media/naimor.png": "/my-portfolio/static/media/naimor.097c2932b797bf1ebcea.png",
     "index.html": "/my-portfolio/index.html",
-    "main.0c7ace06.css.map": "/my-portfolio/static/css/main.0c7ace06.css.map",
-    "main.4df8ac6f.js.map": "/my-portfolio/static/js/main.4df8ac6f.js.map",
+    "main.3b082c10.css.map": "/my-portfolio/static/css/main.3b082c10.css.map",
+    "main.0bff7e28.js.map": "/my-portfolio/static/js/main.0bff7e28.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c7ace06.css",
-    "static/js/main.4df8ac6f.js"
+    "static/css/main.3b082c10.css",
+    "static/js/main.0bff7e28.js"
   ]
 }
