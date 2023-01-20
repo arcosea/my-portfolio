@@ -13,7 +13,7 @@ export function SmartCarProject(){
     }, []);
     
     // video 
-    let video = "../videos/smartcar.mov";
+    let video = "../assets/videos/smartcar.mov";
 
     return(
         <div className="container-SW">

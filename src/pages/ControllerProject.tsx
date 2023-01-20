@@ -13,7 +13,7 @@ export function ControllerProject(){
     }, []);
     
     // video 
-    let video = "../videos/controller.mov";
+    let video = "../assets/videos/controller.mov";
 
     return(
         <div className="container-SW">

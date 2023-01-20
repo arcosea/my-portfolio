@@ -4,6 +4,9 @@ import {BsStars, BsController, BsGithub} from "react-icons/bs";
 import { FaJava } from "react-icons/fa";
 import { RiStackFill } from "react-icons/ri";
 import { useEffect } from "react";
+
+// import video from "../assets/videos/starbattle.mov";
+
 export function StarBattleProject(){
     // Auto scrolls to the top after rendering
     useEffect(() => {
@@ -11,7 +14,7 @@ export function StarBattleProject(){
     }, []);
     
     // video 
-    let video = "../videos/starbattle.mov";
+    let video = "../assets/videos/starbattle.mov";
 
     return(
         <div className="container-SW">

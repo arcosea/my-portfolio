@@ -113,30 +113,6 @@ export function Projects(){
             observer4.observe(elem);
         });
 
-        function active(entry: any){
-            let softItem = document.querySelector("#soft-item");
-            let engItem = document.querySelector("#eng-item");
-            let physItem = document.querySelector("#phys-item");
-            if(entry.target.classList.contains("soft")){
-                softItem?.classList.add("nav-active");
-            } else {
-                softItem?.classList.remove("nav-active");
-            }
-
-            if(entry.target.classList.contains("eng")){
-                engItem?.classList.add("nav-active");
-            } else {
-                engItem?.classList.remove("nav-active");
-            }
-
-            if(entry.target.classList.contains("phys")){
-                physItem?.classList.add("nav-active");
-            } else {
-                physItem?.classList.remove("nav-active");
-            }
-
-
-        }
 
     }, []);
 
@@ -149,9 +125,9 @@ export function Projects(){
     let pClose = "[ Physics Projects ]";
 
     // links to pdfs
-    let plcPDF = "../papers/PropellerLiftCoefficient.pdf"
-    let miPDF = "../papers/MichelsonInterferometer.pdf";
-    let ncPDF = "../papers/NuclearScattering.pdf"
+    let plcPDF = "../assets/papers/PropellerLiftCoefficient.pdf";
+    let miPDF = "../assets/papers/MichelsonInterferometer.pdf";
+    let ncPDF = "../assets/papers/NuclearScattering.pdf";
 
     // page title
     let title = "[ Projects ]";
@@ -206,7 +182,7 @@ export function Projects(){
             <span className='proj-note'>
                 <a target="_blank" id="view-website" href="https://sigafonl.github.io/Stairmaster/"> <AiOutlineCaretRight/> View Website</a>   
             </span>
-            <span className='hidden-note' data-msg="Typscript, 3JS, Shopify, lil-gui, Troika-Text, Blender, OBJ 3D Models, HTML/CSS, Node.JS, Github">
+            <span className='hidden-note' data-msg="Typscript, 3JS, Shopify, lil-gui, Troika-Text, Blender, OBJ 3D Models, HTML/CSS, NodeJS, Github">
                 <RiStackFill className='tech-stack-icon'/> Tech Stack
             </span>
         </div>
@@ -218,7 +194,7 @@ export function Projects(){
             <span className='proj-note'>
                 <Link to="/my-portfolio" id="view-website">  <AiOutlineCaretRight/> View Website </Link>  
             </span>
-            <span className='hidden-note' data-msg="React, Typscript, 3JS, emailJS, HTML/CSS, Node.JS, Github">
+            <span className='hidden-note' data-msg="React, Typscript, 3JS, emailJS, HTML/CSS, NodeJS, Github">
                 <RiStackFill className='tech-stack-icon'/> Tech Stack
             </span>
         </div>
@@ -242,12 +218,12 @@ export function Projects(){
         {/** Lego Finder */}
         <div className="proj-container proj-s-container soft" id="odd-s">
             <span className='proj-title' id='legoProj'> <TbLego/> LegoFinder</span>
-            <p className='proj-desc'> An Object Detection web application using a custom 1000+ image dataset that allows users to detect between 5 of the top 20 most common 
+            <p className='proj-desc'> An Object Detection web application using a custom-made 1000+ image dataset that allows users to detect between 5 of the top 20 most common 
                     Lego pieces in any image taken with 70% accuracy or higher. </p>
             <span className='proj-note'>
                 <a target="_blank" id="view-website" href="https://lego-finder-7ed0f.web.app/"> <AiOutlineCaretRight/> View Website</a>
             </span>
-            <span className='hidden-note' data-msg="React, Typescript, Python, PyTorch, Google Cloud Platform, Firebase, Detecto, Github">
+            <span className='hidden-note' data-msg="React, Typescript, Python, PyTorch, Google Cloud Platform (Function & Storage), Firebase, Detecto, Github">
                 <RiStackFill className='tech-stack-icon'/> Tech Stack
             </span>
         </div>
