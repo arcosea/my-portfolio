@@ -6,6 +6,7 @@
     flex-direction: column;
     position: relative;
     z-index: 10;
+    width: auto;
 }
 
 .cont-header{
@@ -110,4 +111,5 @@
     top: 0;
     left: 0;
     opacity: 1;
+    max-width: 100%;
 }

@@ -27,9 +27,9 @@
 }
 
 #profile{
-    height: 20rem;
-    width: 20rem;
-    border-radius: 15rem;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
     margin-top: 2rem;
     margin-right: 3rem;
 }
@@ -120,21 +120,21 @@
 }
 
 .slide{
-    width: 40rem;
-    height: 25rem;
+    width: 60%;
+    height: 40%;
     border: 5px solid  black;
 }
 
 #run-slides{
-    width: 40rem;
-    height: 25rem;
+    width: 60%;
+    height: 40%;
     border: 5px solid  beige;
 }
 
 .slider{
     color: black;
     border-radius: 1rem;
-    width: 3rem;
+    width: 5%;
     height: 3rem;
     border: 2px solid beige;
 }
