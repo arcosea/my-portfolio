@@ -44,12 +44,13 @@
 
 .submit{
     position: relative;
-    background-color: black;
+    /* background-color: black; */
     left: 85%;
     width: 15%;
     color: beige;
     animation: colorswitch 4s linear infinite;
     height: 5vh;
+    border-radius: 10%;
 }
 .submit:hover{
     transform: translateY(-0.5rem);

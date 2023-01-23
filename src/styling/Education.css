@@ -37,7 +37,7 @@
 .courses-taken li:hover, .skills-gained li:hover{
    font-size: large;
    font-weight: large;
-   background-color: black;
+   background-color: black; 
    color:beige;
 }
 

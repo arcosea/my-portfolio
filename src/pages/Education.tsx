@@ -4,7 +4,7 @@ import { EducationCanvas } from "./EducationCanvas";
 import "../styling/Education.css";
 import { AiOutlineFundProjectionScreen, AiOutlineFunction, AiFillExperiment, AiFillHtml5, AiOutlineCloudServer } from 'react-icons/ai';
 import { BsWater, BsGrid1X2, BsClipboardData, BsPatchQuestionFill, BsGithub } from 'react-icons/bs';
-import { FaReact, FaWaveSquare, FaJava, FaDocker, FaPython, FaFlagUsa, FaTools, FaNode } from 'react-icons/fa';
+import { FaReact, FaWaveSquare, FaJava, FaDocker, FaPython, FaFlagUsa, FaTools, FaNode, FaPeopleArrows, FaShapes } from 'react-icons/fa';
 import { FcDataSheet, FcEngineering, FcTreeStructure, FcVoicePresentation } from 'react-icons/fc';
 import { GiFallDown, GiTimeSynchronization, GiMagnet, GiEmptyMetalBucketHandle, GiCheckboxTree, GiVintageRobot, GiHelicopter, GiUncertainty, GiWorld, GiCircuitry, GiLabCoat, GiLaserBurst, GiSolderingIron, GiThink, GiSprint, GiMexico, GiGraduateCap, GiMagnifyingGlass } from 'react-icons/gi';
 import { MdDesignServices, MdEngineering, MdPattern, MdSyncProblem } from 'react-icons/md';
@@ -259,11 +259,21 @@ export function Education(){
                                 <MdSyncProblem className='ps'/> Problem Solving
                             </li>
                             <li>
+                                <FaPeopleArrows/> Responsible & Reliable
+                            </li>
+                            <li>
                                 <FcVoicePresentation/> Presentation
                             </li>
                             <li>
                                 <SiFuturelearn/> Life-long Learner
                             </li>
+                            <li>
+                                <GiTimeSynchronization/> Time Management
+                            </li>
+                            <li>
+                                <FaShapes/> Versatile
+                            </li>
+
                                                       
                         </ul>
                     </div>
