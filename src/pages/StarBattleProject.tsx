@@ -20,7 +20,7 @@ export function StarBattleProject(){
     return(
         <div className="container-SW">
             <h2 className="ind-proj-title"> <BsStars id="bsIcon"/> Star Battle Puzzle</h2>
-            <video controls autoPlay loop>
+            <video controls autoPlay loop id="sbvideo">
                 <source src={video} type="video/mp4" />
             </video>
             <p className="ind-proj-desc">
