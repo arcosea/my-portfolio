@@ -3,14 +3,13 @@ import "../styling/IndividualProject.css"
 import {BsGithub} from "react-icons/bs";
 import { RiStackFill } from "react-icons/ri";
 import { useEffect } from "react";
+import video from "../assets/videos/starwar.mov";
 
 export function StarWarsProject(){
     // Auto scrolls to the top after rendering
     useEffect(() => {
         window.scrollTo(0, 0)
     }, []);
-    
-    const video = "../assets/videos/starwar.mov";
     
     // Change title of page
     useEffect( () => {
@@ -20,12 +19,10 @@ export function StarWarsProject(){
     return(
         <div className="container-SW">
             <h2 className="ind-proj-title"> <FaJedi id="swIcon"/> Star Wars Image Generator</h2>
-            {/* <video src={video} autoPlay loop controls/> */}
-            <video autoPlay loop controls>
-                <source src={video} type="video/mov" />
-                Sorry, your browser doesn't support videos.
+            <video controls autoPlay loop>
+                <source src={video} type="video/mp4" />
             </video>
-           
+
             <p className="ind-proj-desc">
                 This website allows users to search for a name from any one of 5 potential categories related to Star Wars: Characters, Planets, Species, Vehicles & Starships.
                 Each of those categories is a table in the database in which Characters, Planets, and Species are all related. Vehicles and Starships are both independent

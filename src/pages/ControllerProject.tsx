@@ -5,16 +5,15 @@ import { SiArduino, SiProbot } from "react-icons/si";
 import { BsController, BsGithub } from "react-icons/bs";
 import { GiLed } from "react-icons/gi";
 import { TbSpeedboat } from "react-icons/tb";
+import video from "../assets/videos/controller.mov";
+import { useEffect } from "react";
 
 export function ControllerProject(){
     // Auto scrolls to the top after rendering
     useEffect(() => {
         window.scrollTo(0, 0)
     }, []);
-    
-    // video 
-    let video = "../assets/videos/controller.mov";
-    
+
     // Change title of page
     useEffect( () => {
         document.title = "Controller Project";
@@ -23,7 +22,9 @@ export function ControllerProject(){
     return(
         <div className="container-SW">
             <h2 className="ind-proj-title"> <BsController id="cIcon"/> RF Controller</h2>
-            <video src={video} autoPlay loop controls id="sbvideo"/>
+            <video controls autoPlay loop>
+                <source src={video} type="video/mp4" />
+            </video>
             {/** Summary */}
             <span className="ind-proj-sect-header"> 
                 Summary:
@@ -51,8 +52,4 @@ export function ControllerProject(){
             <div className="proj-gap"></div>
         </div>
     );
-}
-
-function useEffect(arg0: () => void, arg1: never[]) {
-    throw new Error("Function not implemented.");
 }

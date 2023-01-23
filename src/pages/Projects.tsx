@@ -15,6 +15,9 @@ import {GiSpinningBlades, GiSoundWaves, GiCannonBall} from "react-icons/gi";
 import { Link, Route, Routes } from 'react-router-dom';
 import { MdWeb } from 'react-icons/md';
 
+import plcPDF from "../assets/papers/PropellerLiftCoefficient.pdf";
+import miPDF from "../assets/papers/MichelsonInterferometer.pdf";
+import ncPDF from "../assets/papers/NuclearScattering.pdf";
 
 /**
  * Class that displays all projects
@@ -123,11 +126,6 @@ export function Projects(){
     let eClose = "[ Embedded System Projects ]";
     let pOpen = "[ Physics Projects ]";
     let pClose = "[ Physics Projects ]";
-
-    // links to pdfs
-    let plcPDF = "../assets/papers/PropellerLiftCoefficient.pdf"
-    let miPDF = "../assets/papers/MichelsonInterferometer.pdf";
-    let ncPDF = "../assets/papers/NuclearScattering.pdf"
 
     // page title
     let title = "[ Projects ]";

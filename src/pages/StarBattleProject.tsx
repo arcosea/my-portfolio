@@ -1,11 +1,9 @@
 import "../styling/IndividualProject.css"
 import "../styling/Projects.css"
 import {BsStars, BsController, BsGithub} from "react-icons/bs";
-import { FaJava } from "react-icons/fa";
 import { RiStackFill } from "react-icons/ri";
 import { useEffect } from "react";
-
-// import video from "../assets/videos/starbattle.mov";
+import video from "../assets/videos/starbattle.mov";
 
 export function StarBattleProject(){
     // Auto scrolls to the top after rendering
@@ -13,8 +11,6 @@ export function StarBattleProject(){
         window.scrollTo(0, 0)
     }, []);
     
-    // video 
-    let video = "../assets/videos/starbattle.mov";
 
     // Change title of page
     useEffect( () => {
@@ -24,7 +20,9 @@ export function StarBattleProject(){
     return(
         <div className="container-SW">
             <h2 className="ind-proj-title"> <BsStars id="bsIcon"/> Star Battle Puzzle</h2>
-            <video src={video} autoPlay loop controls id="sbvideo"/>
+            <video controls autoPlay loop>
+                <source src={video} type="video/mp4" />
+            </video>
             <p className="ind-proj-desc">
                 Sudoku-like game where users can select a puzzle using an identifier, a request is made to the backend server that searches for that puzzle. If no puzzle is found,
                 an error message is displayed. If puzzle is found, data on the different regions and solution is sent to front end which parses the it & generates the puzzle accordingly

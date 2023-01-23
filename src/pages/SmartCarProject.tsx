@@ -5,15 +5,13 @@ import { SiArduino, SiProbot } from "react-icons/si";
 import { GiSoundWaves } from "react-icons/gi";
 import { BsGithub } from "react-icons/bs";
 import { useEffect } from "react";
+import video from "../assets/videos/smartcar.mov";
 
 export function SmartCarProject(){
     // Auto scrolls to the top after rendering
     useEffect(() => {
         window.scrollTo(0, 0)
     }, []);
-    
-    // video 
-    let video = "../assets/videos/smartcar.mov";
 
     // Change title of page
     useEffect( () => {
@@ -23,7 +21,9 @@ export function SmartCarProject(){
     return(
         <div className="container-SW">
             <h2 className="ind-proj-title"> <SiProbot id="scIcon"/> Smart Car</h2>
-            <video src={video} autoPlay loop controls id="sbvideo"/>
+            <video controls autoPlay loop>
+                <source src={video} type="video/mp4" />
+            </video>
             {/** Summary */}
             <span className="ind-proj-sect-header"> 
                 Summary:
