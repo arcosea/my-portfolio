@@ -5,8 +5,8 @@ import "../styling/Education.css";
 import { AiOutlineFundProjectionScreen, AiOutlineFunction, AiFillExperiment, AiFillHtml5, AiOutlineCloudServer } from 'react-icons/ai';
 import { BsWater, BsGrid1X2, BsClipboardData, BsPatchQuestionFill, BsGithub } from 'react-icons/bs';
 import { FaReact, FaWaveSquare, FaJava, FaDocker, FaPython, FaFlagUsa, FaTools, FaNode, FaPeopleArrows, FaShapes } from 'react-icons/fa';
-import { FcDataSheet, FcEngineering, FcTreeStructure, FcVoicePresentation } from 'react-icons/fc';
-import { GiFallDown, GiTimeSynchronization, GiMagnet, GiEmptyMetalBucketHandle, GiCheckboxTree, GiVintageRobot, GiHelicopter, GiUncertainty, GiWorld, GiCircuitry, GiLabCoat, GiLaserBurst, GiSolderingIron, GiThink, GiSprint, GiMexico, GiGraduateCap, GiMagnifyingGlass } from 'react-icons/gi';
+import { FcCircuit, FcDataSheet, FcEngineering, FcTreeStructure, FcVoicePresentation } from 'react-icons/fc';
+import { GiFallDown, GiTimeSynchronization, GiMagnet, GiEmptyMetalBucketHandle, GiCheckboxTree, GiVintageRobot, GiHelicopter, GiUncertainty, GiWorld, GiCircuitry, GiLabCoat, GiLaserBurst, GiSolderingIron, GiThink, GiSprint, GiMexico, GiGraduateCap, GiMagnifyingGlass, GiCubes } from 'react-icons/gi';
 import { MdDesignServices, MdEngineering, MdPattern, MdSyncProblem } from 'react-icons/md';
 import { SiMatrix, SiPostgresql, SiMaterialdesignicons, SiElectron, SiAutodesk, SiReacttable, SiArduino, SiLatex, SiRstudio, SiWolframmathematica, SiJavascript, SiFlask, SiTypescript, SiFuturelearn } from 'react-icons/si';
 import { TbGridDots, TbLetterC, TbMath, TbWaveSawTool } from 'react-icons/tb';
@@ -60,7 +60,7 @@ export function Education(){
                                 <MdEngineering className='eng'/> Engineering Statics
                             </li>
                             <li>
-                                <GiMagnet className='mag'/> EM theory 
+                                <GiMagnet className='mag'/> EM Theory 
                             </li>
                             <li>
                                 <GiMagnifyingGlass/>  EM Optics
@@ -69,7 +69,10 @@ export function Education(){
                                 <GiEmptyMetalBucketHandle className='mat'/> Material Science
                             </li>
                             <li>
-                                <span className='dq'> &#8466;</span> Diff. Equations & Laplace Transforms
+                                <FcCircuit/>  Electrical Circuits
+                            </li>
+                            <li>
+                                <span className='dq'> &#8466;</span> Laplace Transforms & Complex Analysis
                             </li>
                             <li>
                                 <TbWaveSawTool className='four'/> Fourier Analysis & BVP
@@ -100,6 +103,9 @@ export function Education(){
                             </li>
                             <li>
                                 <SiMatrix className='line'/> Linear Algebra
+                            </li>
+                            <li>
+                                <span className='line'/> &#8706; Differential Equations
                             </li>
                         </ul>
 
@@ -151,7 +157,7 @@ export function Education(){
                                 <FaJava className='java'/>  Java
                             </li>
                             <li>
-                                <SiJavascript className='js'/> JavaScript, 3JS
+                                <SiJavascript className='js'/> JavaScript
                             </li>
                             <li>
                                 <SiTypescript className='ts'/> TypeScript
@@ -186,6 +192,9 @@ export function Education(){
                             </li>
                             <li>
                                <FaReact className='re spin'/> React
+                            </li>
+                            <li>
+                               <GiCubes /> 3JS
                             </li>
                             <li>
                                <SiArduino className='arduino'/> Arduino
