@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.5b591356.css",
-    "main.js": "/my-portfolio/static/js/main.8f6dc2a1.js",
+    "main.css": "/my-portfolio/static/css/main.def3b2a4.css",
+    "main.js": "/my-portfolio/static/js/main.9281f942.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/starwar.mov": "/my-portfolio/static/media/starwar.e268edc0aea6342c6079.mov",
     "static/media/smartcar.mov": "/my-portfolio/static/media/smartcar.9f3787537d7f60cb481b.mov",
@@ -19,6 +19,7 @@
     "static/media/PropellerLiftCoefficient.pdf": "/my-portfolio/static/media/PropellerLiftCoefficient.a9ec8ee93db9d66067f2.pdf",
     "static/media/int.png": "/my-portfolio/static/media/int.e13dc867730726c971d2.png",
     "static/media/got.png": "/my-portfolio/static/media/got.e473a8fc4506b1bc31b6.png",
+    "static/media/autocar.png": "/my-portfolio/static/media/autocar.7a5d0252a9adb5e93f84.png",
     "static/media/NuclearScattering.pdf": "/my-portfolio/static/media/NuclearScattering.1af291fc1bbc8c05f01a.pdf",
     "static/media/bb.png": "/my-portfolio/static/media/bb.62131517516b0cd7148f.png",
     "static/media/sw.png": "/my-portfolio/static/media/sw.43251b685ffcf4f79873.png",
@@ -30,12 +31,12 @@
     "static/media/star.png": "/my-portfolio/static/media/star.6fdc41d43aba9240af04.png",
     "static/media/naimor.png": "/my-portfolio/static/media/naimor.097c2932b797bf1ebcea.png",
     "index.html": "/my-portfolio/index.html",
-    "main.5b591356.css.map": "/my-portfolio/static/css/main.5b591356.css.map",
-    "main.8f6dc2a1.js.map": "/my-portfolio/static/js/main.8f6dc2a1.js.map",
+    "main.def3b2a4.css.map": "/my-portfolio/static/css/main.def3b2a4.css.map",
+    "main.9281f942.js.map": "/my-portfolio/static/js/main.9281f942.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b591356.css",
-    "static/js/main.8f6dc2a1.js"
+    "static/css/main.def3b2a4.css",
+    "static/js/main.9281f942.js"
   ]
 }
