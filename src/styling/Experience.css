@@ -190,13 +190,13 @@
     text-shadow: 0.1em 0.1em 0.1em white;
     letter-spacing: 0.2em;
 }
-#shopify{
+#shopify, #cascade{
     color: rgb(78, 159, 78);
 }
 #parameters{
     color: rgb(165, 165, 83);
 }
-#threejs{
+#threejs, #react{
     color:aqua;
 }
 .note-link{

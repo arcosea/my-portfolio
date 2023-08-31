@@ -59,23 +59,25 @@ export function Experience(){
                 {/* SWE Job */}
                 <div className="inner-container">
                     <div className="comp-container-left hidden" id="swe-job">
-                        <h3 className="component-name"> <AiOutlineLaptop id="ltIcon"/> Software Engineering Intern</h3>
+                        <h3 className="component-name"> <AiOutlineLaptop id="ltIcon"/> Software Engineer</h3>
                         <img src={naimor} alt="company logo" id="naimor-img"></img>
                         <span className="left-arrow"></span>
                         <h4 className="company-left" id="naimor"> NaiMor, Inc </h4>
-                        <span className="timeline"> August. 2022 - Present</span>
+                        <span className="timeline"> August 2022 - August 2023</span>
                         <p className="description">
-                            Contracted to create a UI to embed into <strong id="shopify"> Shopify </strong > that allows clients to customize Stairs based on different <strong id="parameters"> 
-                            styles, materials, shape, color, preferred dimensions and other features. </strong> 
+                            Designed a responsive web-app with mobile compatibility using <strong id="react">React</strong> for <strong id="cascade"> Cascade's Manufacturing </strong> store.
                         </p>
                         <p className="description">
-                            The website assembles and renders
-                            the product using <em id="threejs"> Javascripts 3D Library (3JS) </em> & associates a <strong> price </strong> for the current assembly. 
-                            This project is done in collaboration with another intern under the guidance of a mentor.
+                            Implement algorithms that can assemble OBJ models based on customer input using Typescript & <strong id="threejs">Javascripts 3D library (3JS)</strong>.
                         </p>
+                        <p className="description">
+                            Provides user with a price estimate for their stair configuration based on <strong id="parameters">shape, style, materials, colored, dimensions & more </strong>. 
+                            Also allows users to place order directly into <strong id="shopify"> Shopify </strong>.
+                        </p>
+                        
                         <p className="note-link">
                             <strong><em id="link"> Website Link: </em></strong>  
-                            <a target="_blank" id="naimor_link" href="https://sigafonl.github.io/Stairmaster/"> <Gi3DStairs /> Stairmaster</a>
+                            <a target="_blank" id="naimor_link" href="https://www.cascademanufacturing.com/products/custom-staircase"> <Gi3DStairs /> Stairmaster</a>
                         </p>  
                     </div>
                     <div className="visual">
@@ -91,7 +93,7 @@ export function Experience(){
                         <img  src={plu2} alt="company logo"></img>
                         <span className="right-arrow"></span>
                         <h4 className="company-right" id="plu-name"> Pacific Lutheran University </h4>
-                        <span className="timeline"> August 2022 - Present</span>
+                        <span className="timeline"> August 2022 - May 2023</span>
                         <p className="description">
                             Responsible for providing <strong id="ac-sys"> academic assistance </strong> to other students through drop-in hours or scheduled one to one appointments for <strong id="ac-sys"> Math & Computer Sciences Courses </strong>.
                         </p> 
@@ -108,7 +110,7 @@ export function Experience(){
                         <span className="timeline"> February 2022 - May 2022</span>
                         <p className="description">
                             I was responsible for checking students pre-lab responses & answering any <em id="lab"> technical or conceptual lab related questions </em>students may have had.
-                            Also graded <strong id="num-lab"> 6 different labs </strong> for roughly <strong id="num-lab"> 40 students </strong> each & provided <strong id="cfeed"> constructive feedback</strong>.
+                            Also graded <strong id="num-lab"> 6 different labs </strong> for roughly <strong id="num-lab"> 40 students </strong> & provided <strong id="cfeed"> constructive feedback</strong>.
                         </p>
                        
                     </div>

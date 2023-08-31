@@ -14,6 +14,7 @@ import Footer from './Footer';
 import { SmartCarProject } from './pages/SmartCarProject';
 import { ControllerProject } from './pages/ControllerProject';
 import { Contact } from './pages/Contact';
+import { AutonomousCarProject } from './pages/AutonomousCarProject';
 
 function App() {
   let title = "about me"
@@ -26,6 +27,7 @@ function App() {
         <Route path="/my-portfolio" element={< Home />}/>
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/autonomouscar" element={<AutonomousCarProject/>} />
         <Route path="/projects/starwars" element={<StarWarsProject />} />
         <Route path="/projects/starbattle" element={<StarBattleProject />} />
         <Route path="/projects/smartcar" element={<SmartCarProject />} />

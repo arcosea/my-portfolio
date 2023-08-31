@@ -182,7 +182,7 @@ export function Projects(){
             <span className='proj-title'> <Gi3DStairs/> StairMaster</span>
             <p className='proj-desc'> A responsive website for <em id="naimor-inc"> NaiMor, Inc </em> that allows customers to style stairs for purchase based on design shape, material, color, size and other features. </p>
             <span className='proj-note'>
-                <a target="_blank" id="view-website" href="https://sigafonl.github.io/Stairmaster/"> <AiOutlineCaretRight/> View Website</a>   
+                <a target="_blank" id="view-website" href="https://www.cascademanufacturing.com/products/custom-staircase"> <AiOutlineCaretRight/> View Website</a>   
             </span>
             <span className='hidden-note' data-msg="Typscript, 3JS, Shopify, lil-gui, Troika-Text, Blender, OBJ 3D Models, HTML/CSS, NodeJS, Github">
                 <RiStackFill className='tech-stack-icon'/> Tech Stack
@@ -252,7 +252,7 @@ export function Projects(){
             <span className='proj-title' id="ldProj"> <FaCarSide id="ldIcon" /> LaserDrive </span>
             <p className='proj-desc'> Collaborating with a group to build an Autonomous F1Tenth RC Car. </p>
             <span className='proj-note'>
-                <a target="_blank" id="view-website" href=""> <AiOutlineCaretRight/> View Website</a>
+                <Link to="/projects/autonomouscar" id="view-website">  <AiOutlineCaretRight/> View Demo </Link>
             </span>
             <span className='hidden-note' data-msg="Python, ROS, F1Tenth Car & Simulator, Asana, React, Github">
                 <RiStackFill className='tech-stack-icon'/> Tech Stack

@@ -190,7 +190,7 @@ export function About(){
                                 <GiSoccerBall id="ball"/> Soccer
                             </span>
                             <p>
-                                I grew up playing soccer till my sophomore year of High School.
+                                Played soccer up until my sophomore year of High School.
                             </p>
                         </li>
                         <li>
@@ -198,7 +198,7 @@ export function About(){
                                 <FaRunning id="forward"/> Track
                             </span>
                             <p>
-                                My personal bests are 4:16 min in the 1500m and a 15:43 5k
+                                My personal bests are 4:03 min in the 1500m and a 15:43 5k
                             </p>
                         </li>
                         <li>
@@ -225,12 +225,12 @@ export function About(){
                     <ul className="other-act">
                         <li>
                             <span className="sub-title" >
-                                <FaVolleyballBall /> volleyball
+                                <FaVolleyballBall /> Volleyball
                             </span>
                         </li>
                         <li>
                             <span className="sub-title" >
-                                <MdSportsTennis/> badminton
+                                <MdSportsTennis/> Badminton
                             </span>
                         </li>
                         <li>

@@ -15,7 +15,7 @@
 }
 
 /*** Videos */
-video{
+video, .auto-car{
     margin-left: 15%;
     width: 70%;
     height: 60%;
@@ -26,6 +26,7 @@ video{
     width: 60%;
     margin-left: 20%;
 }
+
 
 /** Description & rules*/
 .ind-proj-desc{
