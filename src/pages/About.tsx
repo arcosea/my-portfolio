@@ -138,9 +138,8 @@ export function About(){
             {/** BIO  */}
             <div id="person">
                 <p id = "intro">
-                    Hey Everyone! My Name is <strong>Erick Arcos</strong>, a <em> student-athlete </em> at <strong>Pacific Lutheran University</strong>. 
-                    I am studying <strong>Applied Physics (BS)</strong> and <strong>Computer Science (BA)</strong> with a <strong> Minor in Mathematics. </strong> 
-                    I will be <strong> graduating in  May of 2023. </strong>
+                    Hey Everyone! My Name is <strong>Erick Arcos</strong>, an aspiring <em>Software Engineer</em>. I recently graduated from <strong>Pacific Lutheran University</strong> in May of 2023.
+                    I graduated with bachelor's in <strong>Applied Physics, Computer Science</strong>  and a <strong> Minor in Mathematics.</strong>
                 </p>
                 <img src={profileImg} id="profile" alt="profile picture of Erick Arcos"></img>
             </div>
