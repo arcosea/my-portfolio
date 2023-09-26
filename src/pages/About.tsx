@@ -139,7 +139,7 @@ export function About(){
             <div id="person">
                 <p id = "intro">
                     Hey Everyone! My Name is <strong>Erick Arcos</strong>, an aspiring <em>Software Engineer</em>. I recently graduated from <strong>Pacific Lutheran University</strong> in May of 2023.
-                    I graduated with bachelor's in <strong>Applied Physics, Computer Science</strong>  and a <strong> Minor in Mathematics.</strong>
+                    I graduated with bachelor's in <strong>Applied Physics & Computer Science</strong>, with a minor in <strong> Mathematics.</strong>
                 </p>
                 <img src={profileImg} id="profile" alt="profile picture of Erick Arcos"></img>
             </div>
