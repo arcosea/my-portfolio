@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.def3b2a4.css",
-    "main.js": "/my-portfolio/static/js/main.81b5f6ee.js",
+    "main.js": "/my-portfolio/static/js/main.77a58070.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/starwar.mov": "/my-portfolio/static/media/starwar.e268edc0aea6342c6079.mov",
     "static/media/smartcar.mov": "/my-portfolio/static/media/smartcar.9f3787537d7f60cb481b.mov",
@@ -32,11 +32,11 @@
     "static/media/naimor.png": "/my-portfolio/static/media/naimor.097c2932b797bf1ebcea.png",
     "index.html": "/my-portfolio/index.html",
     "main.def3b2a4.css.map": "/my-portfolio/static/css/main.def3b2a4.css.map",
-    "main.81b5f6ee.js.map": "/my-portfolio/static/js/main.81b5f6ee.js.map",
+    "main.77a58070.js.map": "/my-portfolio/static/js/main.77a58070.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.def3b2a4.css",
-    "static/js/main.81b5f6ee.js"
+    "static/js/main.77a58070.js"
   ]
 }
