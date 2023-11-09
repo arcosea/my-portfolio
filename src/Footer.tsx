@@ -21,10 +21,10 @@ export default function Footer(){
             </ul>
             <ul className="middle-footer">
                 <li>
-                    <Link to="/contact" className="site-title link"> <MdPermContactCalendar/> Contact Me </Link>   
+                    <Link to="/my-portfolio/contact" className="site-title link"> <MdPermContactCalendar/> Contact Me </Link>   
                 </li>
                 <li>
-                    <Link to="/education" className="site-title link"> <TbFileCertificate/> Education </Link>  
+                    <Link to="/my-portfolio/education" className="site-title link"> <TbFileCertificate/> Education </Link>  
                 </li>
     
 

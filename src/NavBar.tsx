@@ -10,13 +10,13 @@ export default function Navbar(){
             <Link to="/my-portfolio" className="site-title"> <FaHome/> &nbsp; Home </Link>
             <ul>
                 <li>
-                    <Link to="/about" className="site-title"> <MdPersonPin/> &nbsp; About Me</Link>
+                    <Link to="/my-portfolio/about" className="site-title"> <MdPersonPin/> &nbsp; About Me</Link>
                 </li>
                 <li>
-                    <Link to="/experience" className="site-title"> <MdOutlineWorkOutline/> &nbsp; Experience</Link>
+                    <Link to="/my-portfolio/experience" className="site-title"> <MdOutlineWorkOutline/> &nbsp; Experience</Link>
                 </li>
                 <li>
-                    <Link to="/projects" className="site-title"> <GrProjects className="nav-icon"/>  &nbsp; Projects</Link>
+                    <Link to="/my-portfolio/projects" className="site-title"> <GrProjects className="nav-icon"/>  &nbsp; Projects</Link>
                 </li>
             </ul>
         </nav>

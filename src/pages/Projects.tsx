@@ -209,7 +209,7 @@ export function Projects(){
                 based on the top result.
             </p>
             <span className='proj-note'>
-                <Link to="/projects/starwars" id="view-website">  <AiOutlineCaretRight/> View Demo </Link>
+                <Link to="/my-portfolio/projects/starwars" id="view-website">  <AiOutlineCaretRight/> View Demo </Link>
             </span>
             <span className='hidden-note' data-msg="React, Typescript, Python, Docker, OpenAI, HTML/CSS, PostgresSQL, pgAdmin, Github">
                 <RiStackFill className='tech-stack-icon'/> Tech Stack
@@ -235,7 +235,7 @@ export function Projects(){
             <span className='proj-title' id="sbProj"> <BsStars id="sbIcon" /> Star Battle Puzzle</span>
             <p className='proj-desc'> Collaborated with a group to design & implement a friendly Graphic User Interface for a sudoku-like puzzle that users can play. </p>
             <span className='proj-note'>
-                <Link to="/projects/starbattle" id="view-website">  <AiOutlineCaretRight/> View Demo </Link>
+                <Link to="/my-portfolio/projects/starbattle" id="view-website">  <AiOutlineCaretRight/> View Demo </Link>
             </span>
             <span className='hidden-note' data-msg="Java, Java Swing GUI, HTTP Server/Client, Agile Development, Github">
                 <RiStackFill className='tech-stack-icon'/> Tech Stack
@@ -252,7 +252,7 @@ export function Projects(){
             <span className='proj-title' id="ldProj"> <FaCarSide id="ldIcon" /> LaserDrive </span>
             <p className='proj-desc'> Collaborating with a group to build an Autonomous F1Tenth RC Car. </p>
             <span className='proj-note'>
-                <Link to="/projects/autonomouscar" id="view-website">  <AiOutlineCaretRight/> View Demo </Link>
+                <Link to="/my-portfolio/projects/autonomouscar" id="view-website">  <AiOutlineCaretRight/> View Demo </Link>
             </span>
             <span className='hidden-note' data-msg="Python, ROS, F1Tenth Car & Simulator, Asana, React, Github">
                 <RiStackFill className='tech-stack-icon'/> Tech Stack
@@ -265,7 +265,7 @@ export function Projects(){
             <p className='proj-desc'> Infrared remote (IR) controlled car with obstacle avoidance, motion detection, follower and line tracking
             modes, aside from simple driving commands. Also attached an OLED screen that displays temperature, humidity and time. </p>
             <span className='proj-note'>
-                <Link to="/projects/smartcar" id="view-website">  <AiOutlineCaretRight/> View Demo </Link>
+                <Link to="/my-portfolio/projects/smartcar" id="view-website">  <AiOutlineCaretRight/> View Demo </Link>
             </span>
             <span className='hidden-note' data-msg="C/C++, Arduino Uno, Electronic modules (Ultrasonic Sensor, DC Motors, PIR motion sensor, IR controller) ">
                 <RiStackFill className='tech-stack-icon'/> Tech Stack
@@ -279,7 +279,7 @@ export function Projects(){
                                         Also decoded an IR controller & repurposed it to change colors of an LED strip.
             </p>
             <span className='proj-note'>
-                <Link to="/projects/controller" id="view-website">  <AiOutlineCaretRight/> View Demo </Link>
+                <Link to="/my-portfolio/projects/controller" id="view-website">  <AiOutlineCaretRight/> View Demo </Link>
             </span>
             <span className='hidden-note' data-msg="C/C++, Arduino Nano, Electronic modules (BLDC Motors, nRF24L01) ">
                 <RiStackFill className='tech-stack-icon'/> Tech Stack
@@ -299,7 +299,7 @@ export function Projects(){
             <span className='proj-note'>
                 <a target="_blank" id="view-website" onClick={ () => window.open(plcPDF)}> <AiOutlineCaretRight/> View Report (PDF)</a>
             </span>
-            <span className='hidden-note' data-msg="Michelson Interferometer, Excel, Solver, Laser, Camera">
+            <span className='hidden-note' data-msg="Arduino Uno, Potentiometer, Soldering Machine, C++, Propeller, Scaling machine, Battery">
                 <RiStackFill className='tech-stack-icon'/> Tools
             </span>
         </div>

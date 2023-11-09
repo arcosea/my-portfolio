@@ -25,16 +25,16 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/my-portfolio" element={< Home />}/>
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/autonomouscar" element={<AutonomousCarProject/>} />
-        <Route path="/projects/starwars" element={<StarWarsProject />} />
-        <Route path="/projects/starbattle" element={<StarBattleProject />} />
-        <Route path="/projects/smartcar" element={<SmartCarProject />} />
-        <Route path="/projects/controller" element={<ControllerProject />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/my-portfolio/about" element={<About />} />
+        <Route path="/my-portfolio/projects" element={<Projects />} />
+        <Route path="/my-portfolio/projects/autonomouscar" element={<AutonomousCarProject/>} />
+        <Route path="/my-portfolio/projects/starwars" element={<StarWarsProject />} />
+        <Route path="/my-portfolio/projects/starbattle" element={<StarBattleProject />} />
+        <Route path="/my-portfolio/projects/smartcar" element={<SmartCarProject />} />
+        <Route path="/my-portfolio/projects/controller" element={<ControllerProject />} />
+        <Route path="/my-portfolio/experience" element={<Experience />} />
+        <Route path="/my-portfolio/education" element={<Education />} />
+        <Route path="/my-portfolio/contact" element={<Contact />} />
 
       </Routes>
     </div>
