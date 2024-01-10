@@ -14,7 +14,7 @@ export function Home(){
         <div className="home">
             <div className="home-container">
                 <p className="home-intro" id="text-1">
-                    Welcome! My name is Erick. Check out my <Link to="/projects" id="proj-link"> Projects!</Link>
+                    Welcome! My name is Erick. Check out my <Link to="/my-portfolio/projects" id="proj-link"> Projects!</Link>
                 </p>
                 
             </div>
